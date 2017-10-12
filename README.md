@@ -6,7 +6,7 @@ ShopPlains is an overseas online shopping app targeted at customers outside U.S.
 
 # Screnshots 
 ### Signup Page 
-<img height="500" src = "https://github.com/dilyar85/ShopPlains/blob/master/images/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83.jpg" alt="Signup Page Screenshot">   
+<img height="500" src = "https://github.com/dilyar85/ShopPlains/blob/master/images/%E6%B3%A8%E5%86%8C.jpg" alt="Signup Page Screenshot">   
 
 ---
 
