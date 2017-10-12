@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@+id/sign_up_scrollView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sign_up_background"
+    >
+
+    <LinearLayout
+        android:id="@+id/sign_up_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingTop="32dp">
+
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/sign_up_upload_avatar_button"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/sign_up_camera_button"
+            app:riv_oval="false"
+            />
+
+
+        <EditText
+            android:id="@+id/sign_up_username_editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/sign_up_username"
+            android:gravity="center"
+            android:hint="@string/user_name"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+
+            />
+
+        <EditText
+            android:id="@+id/sign_up_email_editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/sign_up_email"
+            android:gravity="center"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+
+
+            />
+
+        <EditText
+            android:id="@+id/sign_up_password_editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/sign_up_password"
+            android:gravity="center"
+            android:hint="@string/password"
+            android:inputType="numberPassword"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+
+            />
+
+        <EditText
+            android:id="@+id/sign_up_password_confirm_editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/sign_up_password_confirm"
+            android:gravity="center"
+            android:hint="@string/confirm_password"
+            android:inputType="numberPassword"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            />
+
+
+        <Button
+            android:id="@+id/sign_up_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/sign_up_button"
+            android:gravity="center"
+            android:text="@string/sign_up_button"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/have_account"
+            android:textColor="@color/white"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/sign_up_return_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/return_and_login"
+            android:textColor="@color/sign_up_return_text"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

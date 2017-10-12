@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+   <ImageView
+       android:id="@+id/image"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:background="@mipmap/historyicon32"
+       android:layout_margin="8dp"
+
+       />
+<TextView
+    android:id="@+id/numberoftext"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:gravity="center"
+    android:text="0"
+    android:textSize="15sp"
+    android:textColor="#fff"
+    android:layout_gravity="right|top"
+    android:background="@drawable/badge_background"
+
+    />
+</FrameLayout>

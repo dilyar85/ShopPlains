@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/vGlobalMenuHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/menu_header_user_avatar"
+        android:layout_height="64dp"
+        android:layout_width="64dp"
+        android:layout_margin="12dp"
+        app:riv_oval="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/touxiang"
+
+        />
+
+        <TextView
+            android:id="@+id/menu_header_user_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="Arvin_Chen"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="bottom"
+        android:background="#e0ffffff" />
+
+</FrameLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/log_in_background"
+            android:fillViewport="true"
+
+
+
+    >
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/log_in_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/log_in_logo"
+
+            />
+
+            <EditText
+                android:gravity="center"
+                android:textColor="@color/white"
+
+                android:hint="@string/user_name"
+                android:textColorHint="@color/white"
+                android:id="@+id/log_in_username_editText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/log_in_logo"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/sign_up_username"
+                android:inputType="textEmailAddress"
+
+                />
+
+            <EditText
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:textColor="@color/white"
+
+                android:hint="@string/password"
+                android:textColorHint="@color/white"
+                android:id="@+id/log_in_password_editText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/log_in_username_editText"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/sign_up_password"
+                android:inputType="textWebPassword"
+                />
+
+            <Button
+                android:layout_marginTop="12dp"
+                android:id="@+id/log_in_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/log_in_password_editText"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/sign_up_button"
+                android:text="@string/log_in_button"
+                android:textColor="@color/white"
+                android:textSize="22sp"/>
+
+            <TextView
+                android:id="@+id/no_account_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/log_in_button"
+                android:layout_centerHorizontal="true"
+                android:text="@string/does_not_have_account"
+                android:textColor="@color/white"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/log_in_sign_up_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/no_account_textView"
+                android:layout_centerHorizontal="true"
+                android:text="@string/sign_up_now"
+                android:textColor="@color/sign_up_return_text"
+                android:textSize="16sp"/>
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       >
+       <FrameLayout
+           android:layout_weight="1"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           >
+           <EditText
+               android:id="@+id/serach_et_input"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:drawableLeft="@mipmap/searchicon"
+               android:drawablePadding="5dp"
+               android:paddingLeft="5dp"
+               android:textSize="16sp"
+               android:imeOptions="actionSearch"
+               android:inputType="text"
+               android:hint="输入搜索商店"
+               android:background="@drawable/searchbacground"
+               android:layout_marginRight="12dp"
+               />
+           </FrameLayout>
+       </LinearLayout>
+    <!--<ListView-->
+        <!--android:visibility="gone"-->
+        <!--android:id="@+id/search_lv_tips"-->
+        <!--android:layout_height="200dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:background="@color/colorPrimaryDark"-->
+        <!--android:layout_marginLeft="20dp"-->
+        <!--android:layout_marginRight="20dp"-->
+        <!--android:layout_marginBottom="10dp"-->
+        <!--/>-->
+</LinearLayout>

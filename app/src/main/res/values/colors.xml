@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#363534</color>
+    <color name="colorPrimaryDark">#363534</color>
+    <color name="colorAccent">#06bebd</color>
+    <color name="primary">#00bebe</color>
+    <color name="style_color_primary">#2d5d82</color>
+    <color name="style_color_primary_dark">#21425d</color>
+    <color name="style_color_accent">#01bcd5</color>
+    <color name="divider_color">#EFEFEF</color>
+
+    <color name="fab_color_pressed">#007787</color>
+    <color name="fab_color_shadow">#44000000</color>
+
+    <color name="btn_default_light_normal">#00000000</color>
+    <color name="btn_default_light_pressed">#40ffffff</color>
+    <color name="btn_send_normal">#02c754</color>
+    <color name="btn_send_pressed">#006633</color>
+    <color name="btn_default_shadow">#99000000</color>
+    <color name="btn_context_menu_normal">#ffffff</color>
+    <color name="btn_context_menu_pressed">#e08b8b8b</color>
+    <color name="btn_context_menu_text_red">#ffff0000</color>
+
+    <color name="text_like_counter">#2b5a83</color>
+
+    <color name="white">#ffffff</color>
+
+
+    <color name="grey">#cccccc</color>
+    <color name="sunshine_light_blue">#ff64c2f4</color>
+    <color name="sunshine_blue">#ff1ca8f4</color>
+    <color name="sunshine_dark_blue">#0288D1</color>
+    <color name="light_gray">#646464</color>
+    <color name="black">#000000</color>
+
+    <!-- Sign up activity -->
+    <color name="sign_up_return_text">#038687</color>
+
+
+
+    <color name="production_blue">#5A90FF</color>
+    <color name="production_pink">#FF7A7A</color>
+    <color name="production_yellow">#FFC000</color>
+    <color name="production_red">#0288D1</color>
+
+
+    <color name="slate_gray">#708090</color>
+
+
+</resources>

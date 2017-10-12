@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Arvin_Shopping</string>
+
+
+    <!-- sign_up_log_in_activity strings -->
+    <string name="user_name">用户名</string>
+    <string name="email">E-mail</string>
+    <string name="password">密码</string>
+    <string name="confirm_password">确认密码</string>
+    <string name="have_account">已经有一个账户了吗?</string>
+    <string name="does_not_have_account">还没有账户?</string>
+    <string name="return_and_login"><u>返回登录</u></string>
+    <string name="sign_up_now"><u>马上注册!</u></string>
+    <string name="sign_up_button">注册</string>
+    <string name="log_in_button">登录</string>
+    <string name="type_username_hint">请输入您的用户名</string>
+    <string name="type_email_hint">请输入您的邮箱地址</string>
+    <string name ="type_password_hint">请输入您的密码</string>
+    <string name = "no_match_password_hint">两次密码输入不一致</string>
+
+
+    <!-- ImageLoader -->
+    <string name="sd_card_error">当前存储卡不可用</string>
+    <string name="loading">正在加载</string>
+    <string name="scan_image_filed">图片扫面失败</string>
+
+    <!-- Navigation View strings -->
+    <string name="menu_log_out">退出登录</string>
+
+    <!-- System information -->
+    <string name="get_read_file_permission_fail">无法获取扫面图片权限,请重试后点击允许权限</string>
+
+
+</resources>
+

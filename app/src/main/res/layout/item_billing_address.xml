@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<android.support.v7.widget.AppCompatCheckBox
+    android:id="@+id/checkbox"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_marginLeft="14dp"
+    android:layout_marginTop="15dp"
+    />
+    <TextView
+        android:id="@+id/receiver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:layout_alignTop="@id/checkbox"
+        android:layout_marginLeft="14dp"
+        android:layout_toRightOf="@id/checkbox"
+        android:textColor="#2a2a2a"
+
+        />
+    <ImageButton
+        android:id="@+id/btn_correct"
+        android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+        android:layout_marginRight="26dp"
+        android:layout_alignParentRight="true"
+        android:background="@mipmap/addresscorrect"
+        android:layout_marginTop="26dp"
+        />
+    <TextView
+        android:id="@+id/phonenumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_toLeftOf="@id/btn_correct"
+        android:layout_marginRight="17dp"
+        android:layout_alignTop="@id/checkbox"
+        android:textColor="#2a2a2a"
+        />
+    <TextView
+        android:id="@+id/address"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignLeft="@id/receiver"
+        android:layout_toLeftOf="@id/btn_correct"
+        android:layout_marginRight="17dp"
+        android:textColor="#2a2a2a"
+        android:layout_below="@id/receiver"
+        android:layout_marginTop="11dp"
+        android:layout_marginBottom="15dp"
+         />
+</RelativeLayout>

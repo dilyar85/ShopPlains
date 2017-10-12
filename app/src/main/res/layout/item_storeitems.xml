@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal"
+              android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/storeitems_item_imageview"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/empty_image"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingLeft="16dp">
+
+        <TextView
+            android:id="@+id/storeitems_item_name_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="24dp"
+            android:text="恶性跑者阿迪达斯"/>
+
+        <!--<TextView-->
+            <!--android:id="@+id/storeitems_item_size_textview"-->
+
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:paddingBottom="16dp"-->
+            <!--android:text="尺寸: 32"/>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/storeitems_item_color_textview"-->
+            <!--android:layout_width="match_parent"-->
+
+            <!--android:layout_height="wrap_content"-->
+            <!--android:paddingBottom="16dp"-->
+            <!--android:text="颜色: 红色/蓝色"/>-->
+
+        <TextView
+            android:id="@+id/storeitems_item_price_textview"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:text="$100"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
